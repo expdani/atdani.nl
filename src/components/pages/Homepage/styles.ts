@@ -1,20 +1,13 @@
 import styled from "@emotion/styled";
+import { Container } from "react-grid-system";
 
 export const Wrapper = styled.div({
-  display: "flex",
-  width: "100%",
+  backgroundColor: "#1E201E",
   height: "100vh",
-  margin: "0 auto",
-  boxSizing: "border-box",
-  backgroundColor: "orange",
 });
 
-export const ContentWrapper = styled.div({
-  display: "flex",
-  maxWidth: "85.375rem",
-  flexDirection: "row",
-  alignItems: "center",
-  justifyContent: "space-between",
+export const StyledContainer = styled(Container)({
+  height: "100%",
 });
 
 export const Left = styled.div({
@@ -46,7 +39,7 @@ export const HeaderContainer = styled.header({
   right: 0,
   zIndex: 50,
   height: "4rem",
-  backgroundColor: "rgba(147, 197, 253, 0.6)",
+  backgroundColor: "rgba(0, 0, 0, 0.2)",
   padding: "0 8rem",
   backdropFilter: "blur(10px)",
 });
