@@ -1,0 +1,62 @@
+# Blender 4.1.1 MTL File: 'waterwheel.blend'
+# www.blender.org
+
+newmtl axis
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/farwater.de/public/textures/waterwheel/axis.png
+
+newmtl axis_top
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/farwater.de/public/textures/waterwheel/axis_top.png
+
+newmtl waterwheel_log
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/farwater.de/public/textures/waterwheel/oak_log.png
+
+newmtl waterwheel_metal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/farwater.de/public/textures/waterwheel/waterwheel_metal.png
+
+newmtl waterwheel_plank
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/InventivetalentDev-minecraft-assets-af628ec/assets/minecraft/textures/block/spruce_planks.png
+
+newmtl waterwheel_stripped_log
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd C:/Users/Dani/Desktop/InventivetalentDev-minecraft-assets-af628ec/assets/minecraft/textures/block/stripped_spruce_log_top.png
