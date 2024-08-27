@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Banner from "~/components/pages/Homepage/Banner";
-import Header from "~/components/pages/Homepage/Header";
+import Banner from "~/components/molecules/Banner";
+import Header from "~/components/molecules/Header";
 
 const Home: NextPage = () => {
   return (
