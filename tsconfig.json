@@ -20,6 +20,7 @@
     "paths": {
       "~/*": ["./src/*"],
       "~/components/*": ["./src/components/*"],
+      "~/theme/*": ["./src/theme/*"],
       "~/public/*": ["./public/*"],
       "~/assets/*": ["./src/static/assets/*"]
     }
@@ -31,6 +32,7 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.mjs",
+    "**/*.jsx",
     "src/pages/api/serverImages/[...slug].js"
   ],
   "exclude": ["node_modules"]

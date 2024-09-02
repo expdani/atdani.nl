@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 import { Container } from "react-grid-system";
 
-export const Wrapper = styled.div({
-  backgroundColor: "#1E201E",
+export const Wrapper = styled.div((props) => ({
+  backgroundColor: props.theme.colors.background,
   height: "100vh",
-});
+}));
 
 export const StyledContainer = styled(Container)({
   height: "100%",
