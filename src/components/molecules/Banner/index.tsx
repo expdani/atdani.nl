@@ -1,7 +1,7 @@
 import { Row, Col } from "react-grid-system";
 import { StyledContainer, Wrapper } from "./styles";
-import BannerScene from "~/components/atoms/Three/BannerScene";
 import { FlipText } from "~/components/atoms/FlipText";
+import CatchMeBox from "./components/CatchMeBox";
 
 const Banner = () => {
   return (
@@ -11,8 +11,16 @@ const Banner = () => {
           <Col md={6} style={{ flex: 1 }}>
             <FlipText text="DANI VERHAAR" />
           </Col>
-          <Col md={6} style={{ flex: 1 }}>
-            <BannerScene />
+          <Col
+            md={6}
+            style={{
+              flex: 1,
+              height: "100%",
+              alignItems: "center",
+              display: "flex",
+            }}
+          >
+            <CatchMeBox />
           </Col>
         </Row>
       </StyledContainer>
